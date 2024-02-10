@@ -16,7 +16,7 @@
 		$stmt->bind_param("ssss", $name, $email, $phone, $message);
         $stmt->execute();
 		
-        mail("cianboyle2004@gmail.com", "New Message", "Name: $name\nEmail: $email\nPhone: $phone\nMessage: $message", "From: example@example.com\r\nContent-Type: text/plain; charset=utf-8\r\nX-Mailer: PHP/" . phpversion());
+        mail("cianboyle@example.com", "New Message", "Name: $name\nEmail: $email\nPhone: $phone\nMessage: $message", "From: example@example.com\r\nContent-Type: text/plain; charset=utf-8\r\nX-Mailer: PHP/" . phpversion());
 
 		$stmt->close();
 		$conn->close();
@@ -94,10 +94,10 @@
                     Visit our Office
                 </div>
                 <div class="office-info">
-                    Castlegoland<br>Portnoo<br>Co. Donegal<br>Ireland<br>F94 DY24
+                    Portnoo<br>Co. Donegal
                 </div>
                 <div class="donegal-map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11739.986793918085!2d-8.411872!3d54.8416965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485f0d4bf7acf8fd%3A0xfb3492b92fb118b1!2sCashelgolan%2C%20Co.%20Donegal%2C%20F94%20DY24!5e0!3m2!1sen!2sca!4v1556246073837!5m2!1sen!2sca"  width="350" height="270" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    <iframe src="https://www.google.com/maps/8416965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485f0d4bf7acf8fd%3A0xfb3492b92fb118b1!2sCashelgolan%2C%20Co.%20Donegal%2C%20F94%20DY24!5e0!3m2!1sen!2sca!4v1556246073837!5m2!1sen!2sca"  width="350" height="270" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
                 </div>
                 <div id="office-hours">
@@ -121,8 +121,8 @@
               </div>
               <div class="column">
                   <h2>Our Office</h2>
-                  <a class="footer-item" href="https://www.google.com/maps/place/Cashelgolan,+Co.+Donegal,+F94+DY24/@54.8601761,-8.791587,9z/data=!4m6!3m5!1s0x485f0d4bf7acf8fd:0xfb3492b92fb118b1!8m2!3d54.8416965!4d-8.411872!16s%2Fg%2F11c5343qsk" target="_blank">
-                  Castlegoland, <br> Portnoo, <br> Co. Donegal <br> Ireland <br> F94 DY24
+                  <a class="footer-item" href="https://www.google.com/maps/place/data=!4m6!3m5!1s0x485f0d4bf7acf8fd:0xfb3492b92fb118b1!8m2!3d54.8416965!4d-8.411872!16s%2Fg%2F11c5343qsk" target="_blank">
+                  Co. Donegal <br> Ireland
                 </a>
               </div>
             </footer>
