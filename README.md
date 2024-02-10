@@ -1,4 +1,4 @@
-<img width="1494" alt="Homepage" src="https://github.com/cianboyle04/ABAccounting-Website/assets/159633029/e9987c4c-83df-461e-b240-37ec8dcbede9"># ABAccounting-Website
+# ABAccounting-Website
 
 This website was part of a Web Design assignment for one of my modules in University. The plan was to create a responsive webpage with 6 html pages of content which modelled a business/service - of which I chose my mums accounting business.
 
