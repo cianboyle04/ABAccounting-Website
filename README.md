@@ -1,5 +1,4 @@
 # ABAccounting-Website
-Website I made for my mum's accounting practice
 
 This website was part of a Web Design assignment for one of my modules in University. The plan was to create a responsive webpage with 6 html pages of content which modelled a business/service - of which I chose my mums accounting business.
 
@@ -14,6 +13,9 @@ The websites design is that of my own in which I create layout designs, chose co
 - Contact
 - About
 
-  # How it looks
+# How it looks
+
+![Home Page][Website Example Images/Homepage.png]
+*Home Page example*
 
   
