@@ -15,7 +15,7 @@ The websites design is that of my own in which I create layout designs, chose co
 
 # How it looks
 
-![Home Page][Website Example Images/Homepage.png]
+![Home Page](Website Example Images/Homepage.png)
 *Home Page example*
 
   
