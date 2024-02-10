@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link href="services-style.css" rel="stylesheet">
+    <link href="contact.css" rel="stylesheet">
+    <title>Services - Annette Boyle Accounting</title>
+</head>
+<body>
+    <div class="services-container">
+        <div class="navbar">
+            <div class="title"><a href="index.html">ABAccounting</a></div>
+            <div class="navbarItem"><a href="index.html">Home</a></div>
+            <div class="navbarItem"><a href="services-page.html">Services</a></div>
+            <div class="navbarItem"><a href="clients-page.html">Clients</a></div>
+            <div class="navbarItem"><a href="faq-page.html">FAQ</a></div>
+            <div class="navbarItem"><a href="contact-page.html">Contact</a></div>
+            <div class="navbarItem"><a href="about-page.html">About</a></div>
+          </div>
+
+        <main>
+            <h1 class="header">Our Services</h1>
+            <hr>
+          </main>
+ 
+        <div class="serv-header">
+            What We Provide
+        </div>
+        
+        <div class="calc-header">
+            Try Our Loan Calculator
+        </div>
+
+        <div class="services-paragraph">
+
+            <div class="box" id="serv1">
+                <div class="serv-head">
+                    Accounting Services
+                </div>
+                <ul>
+                    <li>Preparation of financial statements</li>
+                    <li>Recording and tracking of financial transactions</li>
+                    <li>Financial analysis and interpretation</li>
+                    <li>Assistance with budgeting and forecasting</li>
+                </ul>
+            </div>
+
+            <div class="box" id="serv2">
+                <div class="serv-head">
+                    Taxation
+                </div>
+                <ul>
+                    <li>Filing of business and individual tax returns</li>
+                    <li>Representation in tax audits and disputes</li>
+                    <li>Tax planning and strategy</li>
+                    <li>Stay up-to-date with changing tax laws and regulations</li>
+                </ul>
+            </div>
+
+            <div class="box" id="serv3">
+                <div class="serv-head">
+                    Payroll
+                </div>
+                <ul>
+                    <li>Calculation and processing of employee salaries, wages, taxes, and benefits</li>
+                    <li>Assistance with payroll setup</li>
+                    <li>Preparation of payroll reports</li>
+                    <li>Stay up-to-date with changes in payroll laws and regulations</li>
+                </ul>
+                
+            </div>
+
+            <div class="box" id="serv4">
+                <div class="serv-head">
+                    Bookkeeping
+                </div>
+                <ul>
+                    <li>Recording and organising financial transactions</li>
+                    <li>Generation of financial reports</li>
+                    <li>Assistance with payroll processing</li>
+                    <li>Matching and balancing bank accounts, credit cards, and other financial statements</li>
+                </ul>
+                
+            </div>
+
+        </div>
+
+        <div class="box" id="amortisation-calculator">
+            <form id="loanForm" autocomplete="off">
+                <label for="loanAmount">Loan Amount:</label>
+                <input class="text-input" type="number" id="loanAmount" name="loanAmount" step="0.01" placeholder="Enter Amount" required>
+                <br>
+                <label for="term">Term (in years):</label>
+                <input class="text-input" type="number" id="term" name="term" placeholder="Enter number of Years" required>
+                <br>
+                <label for="interestRate">Interest Rate:</label>
+                <input class="text-input" type="number" id="interestRate" name="interestRate" step="0.01" placeholder="Enter Interest Rate" required>
+                <br>
+                <br>
+                <input type="submit" value="Calculate" class="submit-button">
+            </form>
+
+            <div class="result-box">
+                <div class="monthly">Monthly payment</div>
+                <div id="result">€0.00</div>
+
+                <div class="entire">Entire payment</div>
+                <div id="result2">€0.00</div>
+
+            </div>
+
+        </div>
+
+
+
+        <footer>
+            <div class="column">
+              <h2>Quick Links</h2>
+                <a class="footer-item" href="index.html">Home</a><br>
+                <a class="footer-item" href="faq-page.html">FAQ</a><br>
+                <a class="footer-item" href="contact-page.html">Contact</a><br>
+                <a class="footer-item" href="about-page.html">About</a>
+  
+          </div>
+          <div class="column">
+              <h2>Contact Us</h2>
+              <a class="footer-item" href="mailto:example@example.com">contact@abacounting.com</a><br>
+              <a class="footer-item" href="tel:++353861234567">+353 86 123 4567</a>
+          </div>
+          <div class="column">
+              <h2>Our Office</h2>
+              <a class="footer-item" href="https://www.google.com/maps/place/Donegal/@54.882653,-8.0428282,10z/data=!4m6!3m5!1s0x485fa83317fd1c17:0xa00c7a9973174b0!8m2!3d54.653827!4d-8.1096143!16zL20vMDN4cnQ1?entry=ttu" target="_blank">
+              Co. Donegal <br> Ireland
+            </a>
+          </div>
+        </footer>
+    </div>
+    <script src="script.js" rel="script"></script>
+</body>
+</html>

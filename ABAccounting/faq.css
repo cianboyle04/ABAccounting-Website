@@ -1,0 +1,154 @@
+.faq-container{
+    display: grid;
+    /* height: 100vh; */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 120px 1fr 300px;
+
+    grid-template-areas: 
+    "nav nav nav"
+    "main main main"
+    "faq faq faq"
+    "footer footer footer";
+
+    font-family: 'Lato', sans-serif;
+}
+
+.faqs{
+    /* min-height: 100vh; */
+    grid-area: faq;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: column;
+    
+}
+
+.box{
+    transition: transform 0.2s ease-in-out;
+    background-color:rgb(248, 248, 248);
+    margin: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+  }
+  
+  .box:hover{
+    transform: scale(1.02);
+  }
+  
+
+.faq{
+    min-width: 700px;
+    max-width: 700px;
+    margin-top: 2rem;
+    padding-bottom: 1rem; 
+    border-bottom: 2px solid rgb(228, 228, 228);  
+    cursor: pointer;
+    
+    margin: 30px;
+}
+
+.question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Abhaya Libre', serif;
+    margin: 10px;
+}
+
+.question h3{
+    font-size: 30px;
+}
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.5s ease; 
+    font-size: 20px;
+}
+
+
+.answer p{
+    padding-top: 1rem;
+}
+
+.faq.active .answer {
+    max-height: 300px;
+}
+
+svg{
+    transition: transform 0.2s ease-in;
+}
+
+.faq.active svg{
+    transform: rotate(90deg);
+}
+
+@media (max-width: 1060px){
+    .faq-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 250px 120px 1fr 300px;
+
+        grid-template-areas: 
+        "nav"
+        "main"
+        "faq"
+        "footer";
+
+    }
+
+
+    .navbar{
+        display: inline;
+    }
+    
+    .title{
+        display: flex;
+        justify-content: center;
+        margin-right: 50px;
+        
+    }
+
+    .navbarItem{
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-item{
+        font-size: 15px;
+    }
+
+    footer h2{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 800px){
+    
+    .faq{
+        min-width: 400px;
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 500px){
+
+    .faq-container{
+        grid-template-rows: 250px 120px 1fr 600px;
+    }
+
+    .faq{
+        min-width: 350px;
+        max-width: 350px;
+    }
+
+    .column {
+        display: block; 
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        font-size: 20px;
+      }
+}
